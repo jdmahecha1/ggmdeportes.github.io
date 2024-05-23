@@ -7,6 +7,16 @@
     <link rel="style" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap"
+            rel="stylesheet"
+        >
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Deportes GGM</title>
 </head>
@@ -22,7 +32,6 @@
     <div class="main_theme">
         <img class="main_light" src="sol.png">
         
-
             <img class="main_dark" src="luna-removebg.png">
 
     </div>
@@ -42,13 +51,50 @@
     
 
     <div class="container">
+        
         <header>
-            <div class="category">GGM</div>>
+            <div class="category">
+                <div class="background">
+                    <div class="menu__wrapper">
+                        <div class="menu__bar">
+                            
+                            
+                            
+                            <ul class="navigation">
+                                <li>
+                                    <a href="#services" title="Services">
+                                        Futbol
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#blog" title="Blog">
+                                        Baloncesto
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#about" title="About">
+                                        Logros Deportivos
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#contact-us" title="Contact Us">
+                                        Contactanos
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
             <div class="info">
                 <div class="tags">
                     
+                    
                    
                 </div>
+                <section>
                 <h1 class="title">Deportes</h1>
                 <p class="subtitle">En esta pagina web podras encontrar informacion para los deportes vistos en el area de educacion fisica.</p>
             </div>
@@ -63,8 +109,7 @@
                 <p class="item-text"><span class="item-data">Reglas,Historia,dimensiones</span></p>
             </div>
             <div class="item">
-                <h5 class="item-title">4k</h5>
-                <p class="item-text"><span class="item-data"></span> no se</p>
+                             
             </div>
         </section>
         <article>
@@ -85,9 +130,101 @@
                 4.Se marcará gol cuando el balón pasa la línea de meta y entra al arco, siempre y cuando no haya falta.
             </blockquote>
             <p>5. Se considera fuera de juego (offside) si un jugador le da pase a su compañero y éste está más cerca a la línea de meta opuesta en comparación al balón y al último adversario. En este caso, el árbitro otorgará al rival un tiro libre indirecto (pase a otro jugador).
-            </p>
+            </p>          
+            <footer>
+                <div class="footer-line"></div>
+                <div class="footer-wrapper">
+                    <section class="footer-top">
+                        <div class="footer-headline">
+                            <h2>Acerca de la pagina</h2>
+                            
+                        </div>
+                        
+                    </section>
+                    <div class="footer-columns">
+                        
+                        <section>
+                            <h3>Idiomas utilizados</h3>
+                            <ul>
+                                <li>
+                                    <a href="https://developer.mozilla.org/es/docs/Web/HTML" title="API">HTML</a>
+                                </li>
+                                <li>
+                                    <a href="https://developer.mozilla.org/es/docs/Web/CSS" title="Pricing">css</a>
+                                </li>
+                                <li>
+                                
+                                    <a href="https://developer.mozilla.org/es/docs/Web/JavaScript" title="Documentation">JavaScript</a></a>
+                                </li>
+                                
+                            </ul>
+                        </section>
+                        <section>
+                            <h3>Recursos</h3>
+                            <ul>
+                                <li>
+                                    <a href="#" title="Support">Youtube</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="Sitemap">github</a>
+                                </li>
+                                
+                            </ul>
+                        </section>
+                        <section>
+                            <h3>Colegio</h3>
+                            <ul>
+                                <li>
+                                    <a href="#" title="About Us">Acerca de nosotros</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="#" title="Careers">Logros Deportivos</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="juandiegomahechamartinez@gmail.com" title="Contact">Contacto</a>
+                                </li>
+                            </ul>
+                        </section>
+                        
+                    </div>
+                    <div class="footer-bottom">
+                        <div class='social-links'>
+                            <ul>
+                                <li>
+                                    <a href="#" title="Instagram">
+                                        <img src="colegioggm-removebg-preview.png" alt='Instagram'>                       
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="#" title="Gmail">
+                                        <img src="gmail.png" alt='Gmail'>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/dashboard" title="Github">
+                                        <img src="github.png" alt='Github'>
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+    
+                        <small>©Juan Diego Mahecha Martinez <span id="year"></span>, Todos los derechos reservados</small>
+                    </div>
+                </div>
+            </footer>
+            <script>
+                document.getElementById("year").innerHTML = new Date().getFullYear();
+            </script>
+                        
         </article>
+    </section>
     </div>
+
+   
 
     <script src="script.js"></script>
 
